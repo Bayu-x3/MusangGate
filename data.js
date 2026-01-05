@@ -31,4 +31,28 @@ const dataMusang = [
       "https://i.top4top.io/p_3657uljca0.jpg"
     ]
   },
+  {
+    nama: "Fitri Ramadhani",
+    facebook: "https://www.facebook.com/fitri.ramadhani.14661",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://l.top4top.io/p_365710mm70.jpg"
+    ]
+  },
+  {
+    nama: "Fitri Ramadhani",
+    facebook: "https://www.facebook.com/fitri.ramadhani.14661",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://l.top4top.io/p_365710mm70.jpg"
+    ]
+  },
+  {
+    nama: "Dimas Habibi",
+    facebook: "https://www.facebook.com/fitri.ramadhani.14661",
+    jenis: "https://www.facebook.com/Dimashabbi",
+    bukti: [
+      "https://j.top4top.io/p_36577x3d90.jpg"
+    ]
+  },
 ];
