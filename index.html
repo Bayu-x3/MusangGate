@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Musang Gate IO</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body { background:#0f1220; }
+    .card { background:#171a33; color:#eaeaf0; }
+    .badge-rip { background:#dc3545; }
+    a { word-break: break-all; }
+  </style>
+</head>
+<body class="text-light d-flex flex-column min-vh-100">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Musang Gate IO</a>
+    <span class="navbar-text text-secondary">Blacklist Ripper $1</span>
+  </div>
+</nav>
+
+<div class="container my-4">
+
+  <!-- Search -->
+  <div class="row mb-4">
+    <div class="col-md-10 mb-2">
+      <input
+  type="text"
+  id="searchInput"
+  class="form-control"
+  placeholder="Cari nama / jenis / facebook musang..."
+>
+    </div>
+    <div class="col-md-2 d-grid">
+      <button class="btn btn-primary" onclick="doSearch()">Search</button>
+    </div>
+  </div>
+
+  <!-- List -->
+  <div class="row g-4" id="list"></div>
+
+  <!-- Pagination -->
+  <nav class="mt-4">
+    <ul class="pagination justify-content-center" id="pagination"></ul>
+  </nav>
+</div>
+
+<footer class="bg-black text-secondary pt-5 pb-4 mt-auto">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mb-3">
+        <h5 class="text-light">Musang Gate IO</h5>
+        <p class="small mb-1">Blacklist akun Facebook ripper $1 / fee airdrop berbasis laporan komunitas.</p>
+        <p class="small mb-0">Tujuan utama: edukasi & pencegahan rip di dunia garapan.</p>
+      </div>
+      <div class="col-md-3 mb-3">
+        <h6 class="text-light">Kontak Developer</h6>
+        <a href="https://www.facebook.com/bayucandra.y" target="_blank" class="text-decoration-none text-info">Facebook: Zeonara Callion</a>
+      </div>
+      <div class="col-md-3 mb-3">
+        <h6 class="text-light">Disclaimer</h6>
+        <p class="small mb-0">Data ditampilkan berdasarkan bukti yang dikirim ke developer. Kalau kalian juga pernah kena rip sama musang 1$, boleh kontak gw di facebook.</p>
+      </div>
+    </div>
+    <hr class="border-secondary" />
+    <div class="text-center small">© 2026 Musang Gate IO — Community Watch</div>
+  </div>
+</footer>
+
+<!-- Modal Bukti -->
+<div class="modal fade" id="buktiModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content bg-dark text-light">
+      <div class="modal-header">
+        <h5 class="modal-title">Bukti Rip</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Data Terpisah -->
+<script src="data.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  const list = document.getElementById('list');
+  const pagination = document.getElementById('pagination');
+  const perPage = 6;
+  let currentPage = 1;
+  let filteredData = [...dataMusang];
+
+function render() {
+  list.innerHTML = '';
+  pagination.innerHTML = '';
+
+  if (filteredData.length === 0) {
+    list.innerHTML = `
+      <div class="col-12 text-center text-secondary py-5">
+        <h5>Musang tidak ditemukan</h5>
+        <p class="small">atau belum ada laporan 🐀</p>
+      </div>
+    `;
+    return;
+  }
+
+  const start = (currentPage - 1) * perPage;
+  const end = start + perPage;
+
+  filteredData.slice(start, end).forEach(item => {
+    const col = document.createElement('div');
+    col.className = 'col-md-4';
+    col.innerHTML = `
+      <div class="card h-100 shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">${item.nama}</h5>
+          <a href="${item.facebook}" target="_blank" class="d-block mb-2">${item.facebook}</a>
+          <span class="badge badge-rip mb-2">${item.jenis}</span>
+        </div>
+        <div class="card-footer bg-transparent border-0">
+          <button class="btn btn-sm btn-outline-primary w-100"
+            onclick='openModal(${JSON.stringify(item.bukti)})'>
+            Lihat Bukti
+          </button>
+        </div>
+      </div>
+    `;
+    list.appendChild(col);
+  });
+
+  renderPagination();
+}
+
+  function renderPagination() {
+    pagination.innerHTML = '';
+    const totalPages = Math.ceil(filteredData.length / perPage);
+
+    for (let i = 1; i <= totalPages; i++) {
+      const li = document.createElement('li');
+      li.className = 'page-item ' + (i === currentPage ? 'active' : '');
+      li.innerHTML = `<a class="page-link" href="#">${i}</a>`;
+      li.onclick = (e) => { e.preventDefault(); currentPage = i; render(); };
+      pagination.appendChild(li);
+    }
+  }
+
+  function doSearch() {
+    document.getElementById('searchInput').addEventListener('input', doSearch);
+    const q = document.getElementById('searchInput').value.trim().toLowerCase();
+
+    if (q === '') {
+      filteredData = [...dataMusang]; // reset ke semua data
+    } else {
+      filteredData = dataMusang.filter(d =>
+        d.nama.toLowerCase().includes(q) ||
+        d.facebook.toLowerCase().includes(q) ||
+        d.jenis.toLowerCase().includes(q)
+      );
+    }
+
+    currentPage = 1;
+    render();
+  }
+  function openModal(images) {
+    const body = document.getElementById('modalBody');
+    body.innerHTML = '';
+    images.forEach(src => {
+      body.innerHTML += `<img src="${src}" class="img-fluid rounded mb-3">`;
+    });
+    new bootstrap.Modal(document.getElementById('buktiModal')).show();
+  }
+
+  render();
+</script>
+
+</body>
+</html>
