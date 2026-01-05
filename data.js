@@ -7,14 +7,14 @@ const dataMusang = [
       "https://h.top4top.io/p_3657o3jc30.jpg"
     ]
   },
-  {
-    nama: "Welcome Cuan",
-    facebook: "https://www.facebook.com/ciro.alvez.948916",
-    jenis: "Rip 1$ Gate",
-    bukti: [
-      "https://a.top4top.io/p_3657viwej0.jpg"
-    ]
-  },
+  // {
+  //   nama: "Welcome Cuan",
+  //   facebook: "https://www.facebook.com/ciro.alvez.948916",
+  //   jenis: "Rip 1$ Gate",
+  //   bukti: [
+  //     "https://a.top4top.io/p_3657viwej0.jpg"
+  //   ]
+  // },
   {
     nama: "Andana Dika",
     facebook: "https://www.facebook.com/mas.firman.79827",
