@@ -50,9 +50,41 @@ const dataMusang = [
   {
     nama: "Dimas Habibi",
     facebook: "https://www.facebook.com/fitri.ramadhani.14661",
-    jenis: "https://www.facebook.com/Dimashabbi",
+    jenis: "Anak anjing gamau lanjutin tugas",
     bukti: [
       "https://j.top4top.io/p_36577x3d90.jpg"
     ]
   },
+  {
+    nama: "Ricky Putra",
+    facebook: "https://www.facebook.com/ricky.putra.10441861",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://j.top4top.io/p_3657tq5aa0.jpg"
+    ]
+  },
+   {
+    nama: "Ricky Putra",
+    facebook: "https://www.facebook.com/ricky.putra.10441861",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://j.top4top.io/p_3657tq5aa0.jpg"
+    ]
+  },
+   {
+    nama: "Siska Kerak",
+    facebook: "https://www.facebook.com/profile.php?id=61577838684333",
+    jenis: "Anak haram gamau tanggung jawab",
+    bukti: [
+      "https://f.top4top.io/p_36571nkre0.jpg"
+    ]
+  },
+   {
+    nama: "Kugsi Arian Syahputra",
+    facebook: "https://www.facebook.com/share/1DkmnGHmwW/",
+    jenis: "Rip gate 1$",
+    bukti: [
+      "https://i.top4top.io/p_3657icag70.jpgp"
+    ]
+  }
 ];
