@@ -71,4 +71,52 @@ const dataMusang = [
       "https://a.top4top.io/p_3657viwej0.jpg"
     ]
   },
+   {
+    nama: "Adrian Uye",
+    facebook: "https://www.facebook.com/profile.php?id=100089599809528",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://f.top4top.io/p_36578oj0z0.jpg"
+    ]
+  },
+   {
+    nama: "Dani Rahman",
+    facebook: "https://www.facebook.com/erlan.heriawan",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://a.top4top.io/p_3657dmsf30.jpg"
+    ]
+  },
+   {
+    nama: "Heri Firmansyah",
+    facebook: "https://www.facebook.com/share/1GK8UBk5Wb/",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://i.top4top.io/p_3658e2jdd0.jpg"
+    ]
+  },
+   {
+    nama: "Heri Firmansyah",
+    facebook: "https://www.facebook.com/share/1GK8UBk5Wb/",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://i.top4top.io/p_3658e2jdd0.jpg"
+    ]
+  },
+   {
+    nama: "Leli",
+    facebook: "https://www.facebook.com/profile.php?id=100092454999039",
+    jenis: "Double KYC",
+    bukti: [
+      "https://d.top4top.io/p_3658aty6j1.jpg"
+    ]
+  },
+   {
+    nama: "Nofem Wahyu Surbakti",
+    facebook: "https://www.facebook.com/youthcrewx",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://h.top4top.io/p_3658qkhdg0.jpg"
+    ]
+  }
 ];
