@@ -230,5 +230,77 @@ const dataMusang = [
     bukti: [
       "https://b.top4top.io/p_3659w0z840.jpg"
     ]
+  },
+   {
+    nama: "Arif Lubis",
+    facebook: "https://www.facebook.com/arif.lubis.3154",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://f.top4top.io/p_3659ra4ho0.jpg"
+    ]
+  },
+   {
+    nama: "Brien's Dustyflow (Ham Zhao)",
+    facebook: "https://www.facebook.com/arif.lubis.3154",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://j.top4top.io/p_3659p6ls90.jpg"
+    ]
+  },
+   {
+    nama: "Galih Eg",
+    facebook: "https://www.facebook.com/profile.php?id=61566014344012",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://c.top4top.io/p_3659n8iiq0.jpg"
+    ]
+  },
+   {
+    nama: "Saya Ari",
+    facebook: "https://www.facebook.com/profile.php?id=61574901416057",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://l.top4top.io/p_3659jaugd0.jpg"
+    ]
+  },
+   {
+    nama: "Diki Projek",
+    facebook: "Ga nemu link fb nya",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://b.top4top.io/p_36599k6cm0.jpg"
+    ]
+  },
+   {
+    nama: "Dio Adikusuma",
+    facebook: "https://www.facebook.com/profile.php?id=100092934697747",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://j.top4top.io/p_36591y7tj0.jpg"
+    ]
+  },
+   {
+    nama: "Rey Real",
+    facebook: "https://www.facebook.com/rey.real.432938",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://f.top4top.io/p_3659i2yxo0.jpg"
+    ]
+  },
+   {
+    nama: "A Setiawan",
+    facebook: "https://www.facebook.com/profile.php?id=61585802374361",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://e.top4top.io/p_3659o9idt0.jpg"
+    ]
+  },
+   {
+    nama: "082260611365",
+    facebook: "Ga ada fb nya",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://i.top4top.io/p_36599bcix0.jpg"
+    ]
   }
 ];
