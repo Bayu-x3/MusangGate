@@ -118,5 +118,29 @@ const dataMusang = [
     bukti: [
       "https://h.top4top.io/p_3658qkhdg0.jpg"
     ]
+  },
+   {
+    nama: "Ijaat Bae",
+    facebook: "https://www.facebook.com/profile.php?id=61583026847729",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://i.top4top.io/p_36590al9l0.jpg"
+    ]
+  },
+   {
+    nama: "Dayat",
+    facebook: "https://www.facebook.com/dayat.bocher",
+    jenis: "Rip 1$ Gate + Plenger + idiot + goblok",
+    bukti: [
+      "https://h.top4top.io/p_3659djvja0.jpg"
+    ]
+  },
+   {
+    nama: "Gery Okvaldo",
+    facebook: "https://www.facebook.com/profile.php?id=100095311414036",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://k.top4top.io/p_36596q31g0.jpg"
+    ]
   }
 ];
