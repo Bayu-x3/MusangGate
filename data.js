@@ -174,5 +174,61 @@ const dataMusang = [
     bukti: [
       "https://c.top4top.io/p_365969c3m2.jpg"
     ]
+  },
+   {
+    nama: "Setiawan Hero",
+    facebook: "https://www.facebook.com/profile.php?id=100090588742202",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://e.top4top.io/p_3659kgeok1.jpg"
+    ]
+  },
+   {
+    nama: "Ujank Verdonk",
+    facebook: "Gak nemu link nya",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://l.top4top.io/p_3659f2xqg3.jpg"
+    ]
+  },
+   {
+    nama: "E Edgar",
+    facebook: "Gak nemu link nya",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://b.top4top.io/p_3659qr5450.jpg"
+    ]
+  },
+   {
+    nama: "Badri Fivemints",
+    facebook: "Gak nemu link nya",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://e.top4top.io/p_3659mnat71.jpg"
+    ]
+  },
+   {
+    nama: "Mas Daytona A",
+    facebook: "Gak nemu link nya",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://k.top4top.io/p_365932y573.jpg"
+    ]
+  },
+   {
+    nama: "Muhammad Anggi Fauzi",
+    facebook: "https://www.facebook.com/profile.php?id=61577827841818",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://j.top4top.io/p_3659c192u1.jpg"
+    ]
+  },
+   {
+    nama: "Fajar Maja",
+    facebook: "https://www.facebook.com/profile.php?id=61583190447231",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://b.top4top.io/p_3659w0z840.jpg"
+    ]
   }
 ];
