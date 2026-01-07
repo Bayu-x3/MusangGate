@@ -96,11 +96,11 @@ const dataMusang = [
     ]
   },
    {
-    nama: "Heri Firmansyah",
-    facebook: "https://www.facebook.com/share/1GK8UBk5Wb/",
-    jenis: "Rip 1$ Gate",
+    nama: "085855253640",
+    facebook: "Ga ada fb soalnya di wa",
+    jenis: "Ripper intinya",
     bukti: [
-      "https://i.top4top.io/p_3658e2jdd0.jpg"
+      "https://e.top4top.io/p_36592mt9z0.jpg"
     ]
   },
    {
@@ -141,6 +141,38 @@ const dataMusang = [
     jenis: "Rip 1$ Gate",
     bukti: [
       "https://k.top4top.io/p_36596q31g0.jpg"
+    ]
+  },
+   {
+    nama: "085123314028",
+    facebook: "Ga ada fb soalnya di wa",
+    jenis: "Ripper intinya",
+    bukti: [
+      "https://e.top4top.io/p_36592mt9z0.jpg"
+    ]
+  },
+   {
+    nama: "Re Rendy",
+    facebook: "https://www.facebook.com/profile.php?id=61574795221418",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://a.top4top.io/p_36593q1k30.jpg"
+    ]
+  },
+   {
+    nama: "Febri Goodboy",
+    facebook: "https://www.facebook.com/febri.godboy.2025",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://b.top4top.io/p_36591st8v1.jpg"
+    ]
+  },
+   {
+    nama: "Lutfi Tanjung",
+    facebook: "https://www.facebook.com/lutfi.tanjung.695068",
+    jenis: "Rip 1$ Gate",
+    bukti: [
+      "https://c.top4top.io/p_365969c3m2.jpg"
     ]
   }
 ];
